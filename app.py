@@ -16,7 +16,7 @@ def lire_taches():
 
 # Fonction pour écrire les tâches dans taches.txt
 def ecrire_taches(taches):
-    with open('taches.txt', 'w') as f:
+    with open('taches.txt', 'w', encoding='utf-8') as f:
         for tache in taches:
             f.write(f"{tache[0]}|{tache[1]}|{tache[2]}|{tache[3]}\n")
 

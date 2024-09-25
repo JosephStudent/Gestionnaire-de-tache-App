@@ -1,23 +1,25 @@
-Collecter les données|Obtenir les données brutes à partir des différentes sources (API, fichiers CSV, bases de données)|En cours|Haute
-Nettoyer les données|Éliminer les valeurs manquantes et les doublons|À faire|Haute
-Analyser les données|Utiliser des statistiques descriptives pour identifier les tendances|À faire|Moyenne
-Créer des visualisations|Utiliser des graphiques pour représenter les insights|À faire|Moyenne
-Construire un modèle prédictif|Appliquer un modèle de machine learning aux données nettoyées|À faire|Basse
-Rédiger un rapport|Synthétiser les résultats dans un rapport clair|À faire|Haute
-Présenter les résultats|Préparer une présentation pour les parties prenantes|À faire|Haute
-Automatiser les tâches|Écrire des scripts Python pour automatiser les analyses récurrentes|En cours|Basse
-Mettre en place des KPI|Définir des indicateurs de performance clé pour évaluer les résultats|À faire|Haute
-Nettoyer les données textuelles|Effectuer une analyse textuelle (Tokenization, Stopwords)|À faire|Moyenne
-Valider l'intégrité des données|Assurer la cohérence des données après nettoyage|À faire|Haute
-Construire un pipeline ETL|Automatiser l'extraction, la transformation et le chargement des données|En cours|Moyenne
-Effectuer un A/B testing|Concevoir et analyser un test A/B sur les données marketing|À faire|Moyenne
-Effectuer une analyse des cohortes|Segmenter les utilisateurs pour observer leurs comportements|À faire|Basse
-Effectuer une analyse de régression|Utiliser une régression linéaire ou logistique pour prédire des résultats|À faire|Moyenne
-Écrire une documentation technique|Documenter les méthodes, sources et outils utilisés|À faire|Moyenne
-Suivre les performances du modèle|Monitorer la précision et les métriques du modèle au fil du temps|À faire|Moyenne
-Collaborer avec l'équipe IT|Coordonner le transfert des données vers les systèmes de production|En cours|Basse
-Mettre en place une base de données|Configurer et structurer une base de données SQL pour stocker les données|À faire|Haute
-Mettre à jour le tableau de bord|Actualiser les visualisations en fonction des nouvelles données|En cours|Haute
-Former les utilisateurs|Former les autres équipes à utiliser les tableaux de bord et outils analytiques|À faire|Moyenne
-Identifier les opportunités de croissance|Analyser les données pour repérer les axes de croissance ou d’optimisation|À faire|Haute
-Effectuer une veille technologique|Surveiller les nouvelles tendances et outils dans le domaine de l’analyse de données|En cours|Basse
+Collecter les donnees|Obtenir les donnees brutes a partir des differentes sources (API, fichiers CSV, bases de donnees)|En cours|Haute
+Nettoyer les donnees|Eliminer les valeurs manquantes et les doublons|A faire|Haute
+Analyser les donnees|Utiliser des statistiques descriptives pour identifier les tendances|A faire|Moyenne
+Creer des visualisations|Utiliser des graphiques pour representer les insights|A faire|Moyenne
+Construire un modele predictif|Appliquer un modele de machine learning aux donnees nettoyees|A faire|Basse
+Rediger un rapport|Synthetiser les resultats dans un rapport clair|A faire|Haute
+Presenter les resultats|Preparer une presentation pour les parties prenantes|A faire|Haute
+Automatiser les taches|Ecrire des scripts Python pour automatiser les analyses recurrentes|En cours|Basse
+Mettre en place des KPI|Definir des indicateurs de performance cle pour evaluer les resultats|A faire|Haute
+Nettoyer les donnees textuelles|Effectuer une analyse textuelle (Tokenization, Stopwords)|A faire|Moyenne
+Valider l'integrite des donnees|Assurer la coherence des donnees apres nettoyage|A faire|Haute
+Construire un pipeline ETL|Automatiser l'extraction, la transformation et le chargement des donnees|En cours|Moyenne
+Effectuer un A/B testing|Concevoir et analyser un test A/B sur les donnees marketing|A faire|Moyenne
+Effectuer une analyse des cohortes|Segmenter les utilisateurs pour observer leurs comportements|A faire|Basse
+Effectuer une analyse de regression|Utiliser une regression lineaire ou logistique pour predire des resultats|A faire|Moyenne
+Ecrire une documentation technique|Documenter les methodes, sources et outils utilises|A faire|Moyenne
+Suivre les performances du modele|Monitorer la precision et les metriques du modele au fil du temps|A faire|Moyenne
+Collaborer avec l'equipe IT|Coordonner le transfert des donnees vers les systemes de production|En cours|Basse
+Mettre en place une base de donnees|Configurer et structurer une base de donnees SQL pour stocker les donnees|A faire|Haute
+Mettre a jour le tableau de bord|Actualiser les visualisations en fonction des nouvelles donnees|En cours|Haute
+Former les utilisateurs|Former les autres equipes a utiliser les tableaux de bord et outils analytiques|A faire|Moyenne
+Identifier les opportunites de croissance|Analyser les donnees pour reperer les axes de croissance ou d'optimisation|A faire|Haute
+Effectuer une veille technologique|Surveiller les nouvelles tendances et outils dans le domaine de l'analyse de donnees|En cours|Basse
+testst|cdcdc|A faire|Basse
+test|test|À faire|Basse
