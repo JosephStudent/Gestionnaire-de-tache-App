@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestionnaire de tâches</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Ajouter une nouvelle tâche</h1>
+        <form action="/add_task" method="POST" class="form-inline">
+            <div class="form-group">
+                <label for="task_name" class="sr-only">Nom de la tâche</label>
+                <input type="text" id="task_name" name="task_name" class="form-control mb-2 mr-sm-2" placeholder="Nom de la tâche" required>
+            </div>
+            <div class="form-group">
+                <label for="task_desc" class="sr-only">Description</label>
+                <input type="text" id="task_desc" name="task_desc" class="form-control mb-2 mr-sm-2" placeholder="Description">
+            </div>
+            <div class="form-group">
+                <label for="task_status" class="sr-only">Statut</label>
+                <select id="task_status" name="task_status" class="form-control mb-2 mr-sm-2">
+                    <option value="À faire">À faire</option>
+                    <option value="En cours">En cours</option>
+                    <option value="Complétée">Complétée</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="task_priority" class="sr-only">Priorité</label>
+                <select id="task_priority" name="task_priority" class="form-control mb-2 mr-sm-2">
+                    <option value="Basse">Basse</option>
+                    <option value="Moyenne">Moyenne</option>
+                    <option value="Haute">Haute</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Ajouter la tâche</button>
+        </form>
+
+        <hr>
+
+        <h2>Liste des tâches</h2>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Nom de la tâche</th>
+                    <th>Description</th>
+                    <th>Statut</th>
+                    <th>Priorité</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for task in tasks %}
+                <tr>
+                    <td>{{ task[0] }}</td>
+                    <td>{{ task[1] }}</td>
+                    <td>{{ task[2] }}</td>
+                    <td>{{ task[3] }}</td>
+                    <td>
+                        <form action="/delete_task" method="POST" style="display:inline;">
+                            <input type="hidden" name="task_name" value="{{ task[0] }}">
+                            <button type="submit" class="btn btn-danger">❌</button>
+                        </form>
+                        <form action="/complete_task" method="POST" style="display:inline;">
+                            <input type="hidden" name="task_name" value="{{ task[0] }}">
+                            <button type="submit" class="btn btn-success">✔️</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
